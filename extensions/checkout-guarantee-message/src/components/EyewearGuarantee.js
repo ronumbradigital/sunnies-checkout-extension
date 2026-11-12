@@ -6,7 +6,15 @@ const LEARN_MORE = 'https://ph.sunniesstudios.com/pages/sunnies-guarantee';
 export default function EyewearGuarantee() {
   return (
     <s-stack direction="block" gap="base">
-      <s-image src={GUARANTEE_IMAGE} alt="Sunnies Guarantee" inlineSize="auto" />
+      <s-box maxInlineSize="180px">
+        <s-image
+          src={GUARANTEE_IMAGE}
+          alt="Sunnies Guarantee"
+          aspectRatio="894/660"
+          inlineSize="fill"
+          objectFit="contain"
+        />
+      </s-box>
       <s-paragraph>
         Thank you. We hope you are happy with your purchase. If not, you’re
         welcome to change your Sunnies Studios product* within 90 days of
