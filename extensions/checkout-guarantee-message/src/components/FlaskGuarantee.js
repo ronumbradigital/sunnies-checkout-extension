@@ -6,15 +6,17 @@ const LEARN_MORE = 'https://ph.sunniesstudios.com/pages/sunnies-guarantee';
 export default function FlaskGuarantee() {
   return (
     <s-stack direction="block" gap="base">
-      <s-box maxInlineSize="180px">
-        <s-image
-          src={GUARANTEE_IMAGE}
-          alt="Sunnies Guarantee"
-          aspectRatio="894/660"
-          inlineSize="fill"
-          objectFit="contain"
-        />
-      </s-box>
+      <s-stack inlineSize="100%" alignItems="center">
+        <s-box inlineSize="180px">
+          <s-image
+            src={GUARANTEE_IMAGE}
+            alt="Sunnies Guarantee"
+            aspectRatio="894/660"
+            inlineSize="fill"
+            objectFit="contain"
+          />
+        </s-box>
+      </s-stack>
       <s-paragraph>
         We hope you are happy with your purchase. If not, your Sunnies Flask
         includes a limited lifetime warranty against manufacturing defects and
